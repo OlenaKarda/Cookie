@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact form</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240808074300">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container-big">
+				<a href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="cookies.html" class="menu__link">Cookies</a></li>
+							<li class="menu__item"><a href="locations.html" class="menu__link">Locations</a></li>
+							<li class="menu__item"><a href="about.html" class="menu__link">About </a></li>
+							<li class="menu__item"><a href="jobs.html" class="menu__link">Jobs</a></li>
+							<li class="menu__item"><a href="catering.html" class="menu__link">Catering</a></li>
+							<li class="menu__item"><a href="franchise.html" class="menu__link">Franchise</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="contact">
+
+				<div class="contact__header">
+					<div class="contact__title">Contact <span>Cookie Couture</span></div>
+					<div class="contact__subtitle">Ask for more information using this form. We will get in touch with you.</div>
+				</div>
+				<div class="contact__container-big">
+					<form class="contact__form form" action="">
+						<div class="form__item">
+							<div class="form__title">Topic*</div>
+							<div class="form__checkbox checkbox">
+								<div class="checkbox__item">
+									<input id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_1" class="checkbox__label"><span class="checkbox__text">Jobs</span></label>
+								</div>
+								<div class="checkbox__item">
+									<input id="c_2" data-error="Помилка" class="checkbox__input" type="checkbox" value="2" name="form[]">
+									<label for="c_2" class="checkbox__label"><span class="checkbox__text">Franchise</span></label>
+								</div>
+								<div class="checkbox__item">
+									<input id="c_3" data-error="Помилка" class="checkbox__input" type="checkbox" value="3" name="form[]">
+									<label for="c_3" class="checkbox__label"><span class="checkbox__text">Catering</span></label>
+								</div>
+								<div class="checkbox__item">
+									<input id="c_4" data-error="Помилка" class="checkbox__input" type="checkbox" value="4" name="form[]">
+									<label for="c_4" class="checkbox__label"><span class="checkbox__text">Media & Press</span></label>
+								</div>
+								<div class="checkbox__item">
+									<input id="c_5" data-error="Помилка" class="checkbox__input" type="checkbox" value="5" name="form[]">
+									<label for="c_5" class="checkbox__label"><span class="checkbox__text">Others</span></label>
+								</div>
+
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__title">Name*</div>
+							<input type="text" name="form[]" data-error="Error" placeholder="Your name" class="form__input input">
+						</div>
+						<div class="form__item">
+							<div class="form__title">Email*</div>
+							<input type="email" name="form[]" data-error="Error" placeholder="Your email" class="form__input input">
+						</div>
+						<div class="form__item">
+							<div class="form__title">Phone*</div>
+							<input type="number" name="form[]" data-error="Error" placeholder="Your phone number" class="form__input input">
+						</div>
+						<div class="form__item">
+							<div class="form__title">Message*</div>
+							<textarea name="form[]" placeholder="Your message" id="" cols="30" rows="10" class="form__textarea"></textarea>
+						</div>
+						<div class="form__item">
+							<div class="form__checkbox">
+								<input id="b_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="b_1" class="checkbox__label"><span class="checkbox__text">By providing my data, I agree that cookie couture may contact me and I agree to the terms and conditions and privacy policy.*</span></label>
+							</div>
+							<!-- <label type="checkbox" class="checkbox__label"><span class="checkbox__text">By providing my data, I agree that cookie couture may contact me and I agree to the terms and conditions and privacy policy.*</span></label> -->
+						</div>
+						<div class="form__item">
+							<div class="form__privacy privacy-form">
+								<div class="privacy-form__checkbox ">
+									<input id="d_1" class="checkbox__input" type="checkbox" name="form[]">
+									<label for="d_1" class="checkbox__label checkbox__label_bg"><span class="checkbox__text">I'm not a robot</span></label>
+								</div>
+								<!-- <label type="checkbox" class="privacy-form__label"><span class="privacy-form__text">I'm not a robot</span></label> -->
+								<div class="privacy-form__image">
+									<img src="img/contact.webp" alt="">
+								</div>
+							</div>
+						</div>
+						<button class="form__button button button_cnt" type="submit">Submit</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container-big">
+				<div class="footer__top top-footer">
+					<div class="top-footer__item">
+						<a href="" class="top-footer__logo"><img src="img/logo_footer.svg" alt="">
+						</a>
+					</div>
+					<div class="top-footer__item">
+						<div class="top-footer__menu menu-footer">
+							<nav class="menu-footer__body">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="contact.html" class="menu-footer__link">Contact</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="index.html" class="menu-footer__link">Press</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="jobs.html" class="menu-footer__link">Jobs</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="franchise.html" class="menu-footer__link">Franchise</a>
+									</li>
+								</ul>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="about.html" class="menu-footer__link">About Us</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="cookies.html" class="menu-footer__link">Cookie Menu</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="locations.html" class="menu-footer__link">Locations</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="catering.html" class="menu-footer__link">Catering</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="top-footer__item">
+						<a href="#" class="top-footer__language">DE</a>
+						<a href="#" class="top-footer__language">Eng</a>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__social social-footer">
+						<div class="social-footer__title">Follow us</div>
+						<div class="social-footer__body">
+							<a href="#" class="social-footer__item">
+								<img src="img/social/insta.svg" alt="Instagram">
+							</a>
+							<a href="#" class="social-footer__item">
+								<img src="img/social/tiktok.svg" alt="Tiktok">
+							</a>
+							<a href="#" class="social-footer__item">
+								<img src="img/social/linked.svg" alt="Linkedin">
+							</a>
+						</div>
+					</div>
+					<div class="footer__copy"><a href="important.html" class="footer__copy-link">Important</a>|<a href="privacy.html" class="footer__copy-link">Privacy Policy</a></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240808074300"></script>
+</body>
+
+</html>
